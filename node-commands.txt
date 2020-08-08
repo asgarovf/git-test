@@ -1,0 +1,9 @@
+npm init  // create package.json
+npm install lite-server --save-dev // install lite server, --save-dev is for set this server for node
+
+add these to package.json>scripts part to activate lite-server:
+"start": "np run lite" ,
+"test": "echo \"Error: no test specified\" && exit 1",
+"lite": "lite-server"
+
+npm start // to start the lite-server

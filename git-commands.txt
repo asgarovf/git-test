@@ -1,0 +1,13 @@
+git init // initialize repository
+git add . // add all items
+git status // check status
+git commit -m "title" // commit changes
+git log --oneline // check commits
+
+git remote add origin adress // add repository to online place
+git push -u origin master // push changes
+
+TO STOP SOME FILES TO BE PUSHED, CREATE .gitignore FILE
+.gitignore:
+
+node_modules  // to exclude this folder from git push
